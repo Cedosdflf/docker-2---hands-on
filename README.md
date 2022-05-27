@@ -9,7 +9,7 @@ Program game aliens adalah program game bahasa python. game ini berupa pesawat l
 setiap pesawat luar angkasa berhasil menembak pesawat alien maka player akan mendapatkan poin. jika pesawat alien berhasil menembak atau menabrakan diri ke pesawat luar angkasa, maka nyawa player akan berkurang satu. permainan akan berakhir jika nyawa player telah habis. 
 
 **cara menjalankan container**
-1. cari dan download file extract game alien di github. lalu, buka file-file program game aliens itu di visual studio code.
+1. cari dan download file extract game alien di link github [![berikut ini](https://github.com/xamox/pygame)]. lalu, buka file-file program game aliens itu di visual studio code.
 2. buat file bernama "Dockerfile" di visual studio code. letakan file ini dalam satu folder file-file game aliens. 
 3. file "Dockerfile" berisikan tulisan sebagai berikut : 
 
