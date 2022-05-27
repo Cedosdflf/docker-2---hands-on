@@ -13,7 +13,6 @@ setiap pesawat luar angkasa berhasil menembak pesawat alien maka player akan men
 2. buat file bernama "Dockerfile" di visual studio code. letakan file ini dalam satu folder file-file game aliens. 
 3. file "Dockerfile" berisikan tulisan sebagai berikut : 
 
-"
 FROM python:3
 
 WORKDIR /examples
@@ -21,7 +20,7 @@ WORKDIR /examples
 COPY ./examples .
 
 CMD ["python", "./aliens.py"]
-"
+
 4. setelah itu, lakukan build image. cara membuild image yaitu klik kanan pada file "Dockerfile". lalu, pilih build image. setelah itu, tulis nama docker container sesuai keinginan anda. kemudian klik enter. selanjutnya, proses building image akan berjalan. tunggu hingga selesai.
 5. tahapan selanjutnya yaitu menjalankan docker container. untuk menjalankan docker container anda dapat melakukan dengan cara menulis "docker run <nama_container_anda>" pada jendela terminal di visual studio code.
 6. pada percobaan ini file game aliens tidak dapat dijalankan. terdapat eror yang bertuliskan "pygame.eror: vidio system not initialized". untuk permasalan ini saya masih belum mendapat solusi. bagi yang memiliki solusi untuk permasalah ini bisa komen pada kolom komentar.
