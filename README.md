@@ -4,7 +4,7 @@ NIM : 119140195
 
 **Program game alien**
 
-**deskripsi program**
+**Deskripsi program.**
 Program game aliens adalah program game bahasa python. game ini berupa pesawat luar angkasa yang melakukan tembak menembak dengan pesawat asing( pesawat alien).
 setiap pesawat luar angkasa berhasil menembak pesawat alien maka player akan mendapatkan poin. jika pesawat alien berhasil menembak atau menabrakan diri ke pesawat luar angkasa, maka nyawa player akan berkurang satu. permainan akan berakhir jika nyawa player telah habis. 
 
@@ -12,10 +12,14 @@ setiap pesawat luar angkasa berhasil menembak pesawat alien maka player akan men
 1. cari dan download file extract game alien di github. lalu, buka file-file program game aliens itu di visual studio code.
 2. buat file bernama "Dockerfile" di visual studio code. letakan file ini dalam satu folder file-file game aliens. 
 3. file "Dockerfile" berisikan tulisan sebagai berikut : 
+
 "
 FROM python:3
+
 WORKDIR /examples
+
 COPY ./examples .
+
 CMD ["python", "./aliens.py"]
 "
 4. setelah itu, lakukan build image. cara membuild image yaitu klik kanan pada file "Dockerfile". lalu, pilih build image. setelah itu, tulis nama docker container sesuai keinginan anda. kemudian klik enter. selanjutnya, proses building image akan berjalan. tunggu hingga selesai.
@@ -25,4 +29,4 @@ CMD ["python", "./aliens.py"]
 
 [![berikut ini adalah link youtube percobaan menjalankan program game alien menggunakan docker](https://youtu.be/Q-TZH3ob2TU)]https://youtu.be/Q-TZH3ob2TU
 
-sekian dan terimakasih. semoga hari mu menyengkan :)
+sekian dan terimakasih. semoga hari mu menyenangkan :)
